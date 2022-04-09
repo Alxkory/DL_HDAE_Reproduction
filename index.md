@@ -20,7 +20,7 @@ Sasha Koryakin
 
 ### Reproducing Table 2
 
-
+![Boxplot of F1 scores per language, black crosses repesent scores found in paper](table1_boxplot.png)
 
 ### Hyperparameters Check
 
