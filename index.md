@@ -27,6 +27,7 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 |HDAE(paper)|68.8 |72.2 |64.0 |72.0 |71.2 |66.9 |
 |Reproduced |66.9 |69.2 |63.3 |67.3 |65.5 |60.9 |
 
+<img src="table1/table1.png" alt="Reproduced Table 1" width="500"/>
 
 
 
@@ -64,6 +65,13 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 |lr=0.000005     |55.7  |60.0  |53.8  |58.1  |
 
 
+|                          |                          |
+:-------------------------:|:-------------------------:
+<img src="table1/En_lr.png" alt="EN - Learning Rate" width="500"/>|<img src="table1/Sp_lr.png" alt="SP - Learning Rate" width="500"/>
+<img src="table1/Fr_lr.png" alt="FR - Learning Rate" width="500"/>|<img src="table1/Ru_lr.png" alt="RU - Learning Rate" width="500"/>
+
+
+
 ##### hyper-beta
 
 |hyper-beta   |EN    |SP    |FR    |RU    |
@@ -73,6 +81,12 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 |0.02         |58.4  |64.4  |51.2  |61.0  |
 |0.002        |56.0  |62.9  |53.8  |55.2  |
 |0.0002       |58.3  |65.0  |51.7  |58.3  |
+
+|                          |                          |
+:-------------------------:|:-------------------------:
+<img src="table1/EN_hyper_beta.png" alt="EN - Hyper-beta" width="500"/>|<img src="table1/SP_hyper_beta.png" alt="SP - Hyper-beta" width="500"/>
+<img src="table1/FR_hyper_beta.png" alt="FR - Hyper-beta" width="500"/>|<img src="table1/RU_hyper_beta.png" alt="RU - Hyper-beta" width="500"/>
+
 
 
 ## Conclusion
