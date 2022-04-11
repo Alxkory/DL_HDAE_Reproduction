@@ -21,7 +21,8 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 
 ## Reproducibility Approach
 ### Reproducing Table 1
-|           |Bags |KBs  |Boots|B/T  |TVs  |VCs  |
+
+|Categories |Bags |KBs  |Boots|B/T  |TVs  |VCs  |
 |-----------|-----|-----|-----|-----|-----|-----|
 |HDAE(paper)|68.8 |72.2 |64.0 |72.0 |71.2 |66.9 |
 |Reproduced |66.9 |69.2 |63.3 |67.3 |65.5 |60.9 |
@@ -51,6 +52,7 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 
 ### Hyperparameters Check
 ##### lr (Learning Rate)
+
 |lr              |EN    |SP    |FR    |RU    |
 |----------------|------|------|------|------|
 |lr=0.005 (paper)|57.9  |65.7  |48.6  |62.9  |
@@ -63,6 +65,7 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 
 
 ##### hyper-beta
+
 |hyper-beta   |EN    |SP    |FR    |RU    |
 |-------------|------|------|------|------|
 |0.02 (paper) |57.9  |65.7  |48.6  |62.9  |
