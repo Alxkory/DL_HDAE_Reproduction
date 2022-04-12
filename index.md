@@ -51,6 +51,16 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 
 ![Boxplot of F1 scores per language, black crosses repesent scores found in paper](table1/table1_boxplot.png)
 
+We see that the mayority of results from the paper fall inside the boxplot resulatant from the reproduction, the main outlier is turkish whoose median lies far below the paper result.  
+
+A small statistical analysis is performed to check this,
+from the data we get a standart gaussian distribution with:  
+mean = 0.3162  
+variance = 0.0973  
+x = 0.508  
+Using a cdf calculation ( P(X <= x) ) we get cdf = 0.9692, which for our case become the p-value = 1-0.9692 = 0.0308, which typically is regarded as significant.
+
+
 ### Hyperparameters Check
 ##### lr (Learning Rate)
 
