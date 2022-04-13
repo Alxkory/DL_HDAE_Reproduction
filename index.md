@@ -63,7 +63,9 @@ Using a cdf calculation ( P(X <= x) ) we get cdf = 0.9692, which for our case be
 
 ### Hyperparameters Check
 We checked the sensitivity of three hyperparameters, including lr (learning rate), hyper-beta and gb_temp, and whether the author has chosen the best hyperparameters.
-##### lr (Learning Rate)
+#### lr (Learning Rate)
+
+We chose 6 different values for learning rate, 0.5, 0.05, 0.005, 0.0005, 0.00005, and 0.000005. After getting the results, we compare them with the result in the paper, which is the baseline of our analysis.
 
 |lr              |EN    |SP    |FR    |RU    |
 |----------------|------|------|------|------|
@@ -82,8 +84,10 @@ We checked the sensitivity of three hyperparameters, including lr (learning rate
 <img src="table1/Fr_lr.png" alt="FR - Learning Rate" width="500"/>|<img src="table1/Ru_lr.png" alt="RU - Learning Rate" width="500"/>
 
 
+From the image above, we can see that the results for different learning rates are similar to the result in the paper. However, researchers of this paper did not choose the best learning rate, especially for the FR and RU datasets. FR dataset got the best performance when the learning rate equals 0.00005 with the F1 score of 59.8. 
 
-##### hyper-beta
+
+#### hyper-beta
 
 |hyper-beta   |EN    |SP    |FR    |RU    |
 |-------------|------|------|------|------|
