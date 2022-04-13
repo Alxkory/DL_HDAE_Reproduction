@@ -20,7 +20,7 @@ The dataset used in our reproduce project is the resturant reviews derived from 
 
 
 ## Reproducibility Approach
-There was no existing code originally. We were provided with a GitHub repository, https://github.com/stangelid/oposum, which is meant to preprocess the raw text files into easy-to-manipulate .hdf5 binaries. We managed to make contact with the author of the paper and got their code, which can be found here ... .   
+There was no existing code originally. We were provided with a GitHub repository, https://github.com/stangelid/oposum, which is meant to preprocess the raw text files into easy-to-manipulate .hdf5 binaries. We managed to make contact with the author of the paper and got their code, which can be found here https://github.com/johnnyjana730/HDAE.   
 In this reproduction, we managed to reproduce HDAE in Table 1 and Table 2 and also hyperparameters check, including lr (learning rate), hyper-beta, and gb_temp.
 
 ### Reproducing Table 1
