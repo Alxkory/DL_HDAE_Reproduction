@@ -102,6 +102,11 @@ From the image above, we can see that the results for different learning rates a
 <img src="table1/EN_hyper_beta.png" alt="EN - Hyper-beta" width="500"/>|<img src="table1/SP_hyper_beta.png" alt="SP - Hyper-beta" width="500"/>
 <img src="table1/FR_hyper_beta.png" alt="FR - Hyper-beta" width="500"/>|<img src="table1/RU_hyper_beta.png" alt="RU - Hyper-beta" width="500"/>
 
+The hyper parameter beta is introduce by the Poincar´e ball model, in which beta controls parameters related to the open unit ball. In order to explore whether the model is sensitive to this parameter, experiments are conducted by changing nothing but the value of beta.
+
+The results and the corresponding values of beta are listed in the table above. It can be seen that the values of f1 fluctuates with the hyper-beta varying, which is different from the results in the original paper(Chang et al. 2021) that exactly remains the same.
+
+According to the graph, we conclude that the hyper-beta does not affect the model directly because the value of f1 does not change monotonically as beta changes monotonically. But we do not exclude the possibilities the beta affects the model indirectly by affecting other parameters.
 
 
 ## Conclusion
