@@ -1,7 +1,7 @@
 ## Reproduction Blog: Hyperbolic Disentangled Representation for Fine-Grained Aspect Extraction
 
 ## Authors:
-Lang Feng,  
+Lang Feng - 5446511,  
 Haoran Wang - 5468175,  
 Zhongbo Yao - 5473543,
 Sasha Koryakin
