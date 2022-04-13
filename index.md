@@ -3,7 +3,7 @@
 ## Authors:
 Lang Feng - 5446511,  
 Haoran Wang - 5468175,  
-Zhongbo Yao - 5473543,
+Zhongbo Yao - 5473543,  
 Sasha Koryakin
 
 ## Introduction
