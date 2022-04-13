@@ -15,7 +15,7 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 
 
 ## Datasets
-The dataset used in our reproduce project is the resturant reviews derived from the SemEval-2016 Aspect-based Sentiment Analysis task (Pontiki et al. 2016). The original dataset covers six languages: English (En), Spanish (Sp), French (Fr), Russian (Ru), Dutch (Du), and Turkish (Tur). However, data in Turkish is not tested in our project as a great deviation from the reported results in the original paper(Chang et al. 2021) is observed. We consider the reason to be that we are using a different computing resource(Macbook with M1 chip, without CUDA) compared with the authors. All the results in our project are derived from this modified dataset.
+The dataset used in our reproduce project is the resturant reviews derived from the SemEval-2016 Aspect-based Sentiment Analysis task (Pontiki et al. 2016). The original dataset covers six languages: English (En), Spanish (Sp), French (Fr), Russian (Ru), Dutch (Du), and Turkish (Tur). However, data in Turkish and Dutch is not tested in our project as a great deviation from the reported results in the original paper(Chang et al. 2021) is observed. We consider the reason to be that we are using a different computing resource(Macbook with M1 chip, without CUDA) compared with the authors. All the results in our project are derived from this modified dataset.
 
 
 
