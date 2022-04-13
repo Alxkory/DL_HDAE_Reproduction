@@ -62,7 +62,7 @@ Using a cdf calculation ( P(X <= x) ) we get cdf = 0.9692, which for our case be
 
 
 ### Hyperparameters Check
-We checked the sensitivity of three hyperparameters, including lr (learning rate), hyper-beta and gb_temp.
+We checked the sensitivity of three hyperparameters, including lr (learning rate), hyper-beta and gb_temp, and whether the author has chosen the best hyperparameters.
 ##### lr (Learning Rate)
 
 |lr              |EN    |SP    |FR    |RU    |
