@@ -84,7 +84,8 @@ We chose 6 different values for learning rate, 0.5, 0.05, 0.005, 0.0005, 0.00005
 <img src="table1/Fr_lr.png" alt="FR - Learning Rate" width="500"/>|<img src="table1/Ru_lr.png" alt="RU - Learning Rate" width="500"/>
 
 
-From the image above, we can see that the results for different learning rates are similar to the result in the paper. However, researchers of this paper did not choose the best learning rate, especially for the FR and RU datasets. FR dataset got the best performance when the learning rate equals 0.00005 with the F1 score of 59.8. 
+From the image above, we can see that the results for different learning rates are similar to the result in the paper. However, researchers of this paper did not choose the best learning rate, especially for the FR and RU datasets. FR dataset got the best performance when the learning rate equals 0.00005 with the F1 score of 59.8. For EN and SP datasets, the best results we got are similar to the results in the paper.  
+Moreover, the reproduced curves do not have big fluctuations except for the FR curve, which means the performance of the model is not sensitive to the learning rate.
 
 
 #### hyper-beta
