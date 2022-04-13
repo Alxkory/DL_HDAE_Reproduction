@@ -20,6 +20,9 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 
 
 ## Reproducibility Approach
+There was no existing code originally. We were provided with a GitHub repository, https://github.com/stangelid/oposum, which is meant to preprocess the raw text files into easy-to-manipulate .hdf5 binaries. We managed to make contact with the author of the paper and got their code, which can be found here ... .   
+In this reproduction, we managed to reproduce HDAE in Table 1 and Table 2 and also hyperparameters check, including lr (learning rate), hyper-beta, and gb_temp.
+
 ### Reproducing Table 1
 
 |Categories |Bags |KBs  |Boots|B/T  |TVs  |VCs  |
@@ -28,10 +31,8 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 |Reproduced |66.9 |69.2 |63.3 |67.3 |65.5 |60.9 |
 
 <img src="table1/table1.png" alt="Reproduced Table 1" width="500"/>
-
-
-
-
+  
+From the image above, we can see that we get similar results with the paper. However, due to the limitation of computability, our reproduced results are not as good as the paper. But we can also see that the differences are not large, which means we can get results closer to the paper given enough computability.
 
 ### Reproducing Table 2
 
@@ -48,10 +49,9 @@ This blog aims to describe our efforts in reproducing the paper "Hyperbolic Dise
 |0.562  |0.656  |0.479  |0.612|0.55 |0.298|  
 |0.589  |0.653  |0.564  |0.598|0.595|0.258| 
 
-
 ![Boxplot of F1 scores per language, black crosses repesent scores found in paper](table1/table1_boxplot.png)
 
-We see that the mayority of results from the paper fall inside the boxplot resulatant from the reproduction, the main outlier is turkish whoose median lies far below the paper result.  
+We see that the majority of results from the paper fall inside the boxplot result from the reproduction, the main outlier is Turkish whose median lies far below the paper result.  
 
 A small statistical analysis is performed to check this,
 from the data we get a standart gaussian distribution with:  
