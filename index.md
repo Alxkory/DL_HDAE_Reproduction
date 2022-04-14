@@ -4,7 +4,7 @@
 Lang Feng - 5446511 - L.Feng-2@student.tudelft.nl,  
 Haoran Wang - 5468175 - H.WANG-46@student.tudelft.nl,  
 Zhongbo Yao - 5473543 - Z.Yao-2@student.tudelft.nl,  
-Sasha Koryakin  
+Sasha Koryakin - 4732650 - A.E.Koryakin@student.tudelft.nl
 
 ## Introduction
 ### Background
